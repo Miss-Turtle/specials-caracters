@@ -1,0 +1,35 @@
+<div id="htmlSpecialsCharacters">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="row clearFixForFlex">                    
+                    {{#each characters.items}}
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 character" attr-type="{{#replaceHelper this.type}}{{/replaceHelper}}">
+                            <div class="character-box">
+                                <div class="character-view">
+                                    {{{this.entiteNumerique}}}
+                                </div>
+                                <hr>
+                                <div class="character-numerique">
+                                    <span class="bold"><i class="fas fa-copy"></i> HTML numérique :</span>
+                                    <pre class="language-markup">{{this.entiteNumerique}}</pre>
+                                    <div class="popupMessageNumerique"></div>
+                                </div>
+                                <div class="character-mnemonique">
+                                    <span class="bold"><i class="fas fa-copy"></i> HTML nommé :</span>
+                                    <pre class="language-markup">{{this.entiteNom}}</pre>         
+                                    <div class="popupMessageMnemonique"></div>                                   
+                                </div>
+                                <div class="character-clavier">
+                                    <span class="bold"><i class="fas fa-copy"></i> code clavier :</span>
+                                    <pre class="language-markup">{{this.codeClavier}}</pre> 
+                                    <div class="popupMessageClavier"></div>                                           
+                                </div>                                
+                            </div>                            
+                        </div>
+                    {{/each}}                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

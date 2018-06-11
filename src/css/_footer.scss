@@ -1,0 +1,101 @@
+footer {
+    padding: 30px;
+    background-color: $colorDarkGreen;
+    color: $colorWhite;
+    @include maxWidth($extraSmallBreak){
+        padding: 30px 10px; 
+    }
+
+    .row:first-child {
+        padding-bottom: 30px;
+    }
+
+    .technoLogo {
+        display: none;
+    }
+}
+
+.copyright {
+    text-align: center;
+}
+
+.conception-tools div {
+    padding: 20px;
+    text-align: center;
+    background-color: $colorMainFont;
+    border-radius: 3px;
+}
+
+.conception-tools svg,
+.conception-tools i,
+.conception-tools img {
+    margin: 10px 10px 0 10px;
+}
+
+.conception-tools .bootstrap {
+    width: 30px;
+    height: 30px;
+    border-width: 1px;
+    border-color: $colorWhite;
+    border-style: solid;
+    border-radius: 3px;
+    vertical-align: -.125em;
+}
+
+.conception-tools .jquery {
+    width: 30px;
+    height: 30px;
+    vertical-align: -.125em;
+}
+
+.conception-tools .handlebars {
+    width: 30px;
+    height: auto;
+    vertical-align: top;
+    margin-top: 22px;
+}
+
+.conception-tools .json {
+    width: 50px;
+    height: auto;
+    vertical-align: top;
+    margin-top: 18px;
+}
+
+.conception-tools .browsersync {
+    width: auto;
+    height: 30px;
+    vertical-align: -.125em;
+}
+
+.no-flexbox {
+    footer {
+        .fab {
+            display: none !important;
+        }
+
+        .technoLogo {
+            display: inline-block;
+            color: $colorWhite;
+        }
+
+        img {
+            margin: 0 10px;
+
+            &.handlebars {
+                margin-top: 12px;
+            }
+    
+            &.json {
+                margin-top: 2px;
+                width: 32px;
+                height: 32px;
+            }
+
+            &.browsersync {
+                width: 32px;
+                height: 32px;
+            }
+        }        
+    }    
+}

@@ -1,0 +1,64 @@
+// Fonts
+$mainFont : 'Segoe UI', 'SegoeUI', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+
+// Colors
+$colorMainFont : #222222;
+$colorWhite :#ffffff;
+$colorBlack : #000000;
+$colorDarkGreen : #4b4f3c;
+$colorMediumGreen : #688718;
+$colorLightGreen : #b0bf84;
+$colorMediumGrey : #b2b8b3;
+$colorLightGrey : #f5f5f5;
+
+// Breakpoints
+$extraSmallBreak : 575px;
+$smallBreak : 576px;
+$mediumBreak : 768px;
+$largeBreak : 992px;
+$extraLargeBreak : 1200px;
+
+// Boolean
+$boolean : true !default;
+
+// Tables
+$inputsCheckboxId: 
+'latin-de-base',
+'supplement-latin-1',
+'latin-etendu-A',
+'latin-etendu-B',
+'alphabet-phonetique-international',
+'ogam',
+'runes',
+'supplement-phonetique',
+'supplement-phonetique-etendu',
+'latin-etendu-additionnel',
+'ponctuation-generale',
+'exposants-et-indices',
+'symboles-monetaires',
+'formes-numerales',
+'fleches',
+'symboles-mathematiques',
+'signes-techniques-divers',
+'alphanumeriques-cercles',
+'filets',
+'paves',
+'formes-geometriques',
+'symboles-divers',
+'casseau',
+'divers-symboles-mathematiques-A',
+'fleches-supplement-A',
+'fleches-supplement-B',
+'divers-symboles-mathematiques-B',
+'operateurs-mathematiques-supplementaires',
+'divers-symboles-et-fleches',
+'latin-etendu-C',
+'latin-etendu-D',
+'latin-etendu-E',
+'symboles-musicaux-occidentaux',
+'divers-symboles-et-pictogrammes',
+'emoticones',
+'casseau-ornementaux',
+'symboles-du-transport-et-cartographiques',
+'fleches-supplement-C',
+'supplement-symboles-et-pictogrammes';

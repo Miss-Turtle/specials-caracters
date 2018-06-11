@@ -1,0 +1,35 @@
+{
+  "name": "sma-specials-characters",
+  "version": "0.0.1",
+  "author": "Sandrine Martinez <sandrine.martinez1@gmail.com> (http://sandrine-martinez.fr/)",
+  "description": "Package pour l'installation de l'environnement de l'outil d'encodage html pour caractères spéciaux réalisé en 2018",
+  "homepage": "http://sandrine-martinez.fr/",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-concat": "2.6.1",
+    "gulp-csso": "3.0.1",
+    "gulp-declare": "0.3.0",
+    "gulp-handlebars": "5.0.2",
+    "gulp-imagemin": "4.1.0",
+    "gulp-modernizr": "2.0.1",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-uglify": "3.0.0",
+    "gulp-wrap": "0.13.0",
+    "merge-stream": "1.0.1",
+    "path": "0.12.7",
+    "popper.js": "^1.14.3",
+    "tooltip.js": "^1.2.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1"
+  }
+}

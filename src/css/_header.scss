@@ -1,0 +1,33 @@
+header {
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 30px;
+}
+
+header h2 {
+    margin-bottom: 20px;
+}
+
+header .contacts {
+    word-break: break-all;
+}
+
+header .contacts svg,
+header .contacts i,
+header .contacts span {
+    color: $colorLightGreen;
+}
+
+.contacts-margin-top {
+    @include maxWidth($largeBreak){
+        margin-top: 20px;
+    }
+}
+
+/*.no-flexbox header .row {
+    @include maxWidth($largeBreak){
+        display: block;
+    }
+}*/

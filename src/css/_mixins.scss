@@ -1,0 +1,17 @@
+@mixin maxWidth($breakpoint){
+    @media screen and (max-width: $breakpoint) {
+        @content;
+    }
+}
+
+@mixin minWidth($breakpoint){
+    @media screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+@mixin mixinClear(){
+    display: block;
+    content: "";
+    clear: both;
+}

@@ -1,0 +1,41 @@
+body{
+    font-family: $mainFont;
+    color: $colorMainFont;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: $colorDarkGreen;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: $colorMediumGreen;
+}
+
+p {
+    padding: 12px  0;
+}
+
+a, a:hover, a:visited {
+    color: $colorMainFont;
+}
+
+.competences h2,
+.jobs h2,
+.studies h2,
+.projects h2 {
+    padding: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    @include maxWidth($extraSmallBreak){
+        padding: 30px 10px; 
+        font-size: 1.8em;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
